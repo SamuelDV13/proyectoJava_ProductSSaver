@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.sdv.clases.vista.SwingOpciones">
+  <grid id="27dc6" binding="panel_opciones" layout-manager="GridLayoutManager" row-count="12" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="3">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="9" width="370" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-2301216"/>
+      <enabled value="true"/>
+      <maximumSize width="350" height="1000"/>
+      <minimumSize width="370" height="400"/>
+      <preferredSize width="370" height="250"/>
+    </properties>
+    <border type="empty">
+      <size top="20" left="20" bottom="20" right="20"/>
+    </border>
+    <children>
+      <component id="2f17e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="0"/>
+          <foreground color="-15917790"/>
+          <text value="Opciones"/>
+        </properties>
+      </component>
+      <component id="890c4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="0"/>
+          <foreground color="-15917790"/>
+          <text value="Ruta del archivo:"/>
+        </properties>
+      </component>
+      <component id="2a57c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="0"/>
+          <foreground color="-15917790"/>
+          <text value="Nombre del archivo:"/>
+        </properties>
+      </component>
+      <component id="1d0ed" class="javax.swing.JTextField" binding="txt_ruta">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="10"/>
+            <preferred-size width="215" height="25"/>
+            <maximum-size width="250" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="0"/>
+          <font name="JetBrains Mono" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="b201" class="javax.swing.JTextField" binding="txt_archivo">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="10"/>
+            <preferred-size width="215" height="25"/>
+            <maximum-size width="250" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12" style="0"/>
+        </properties>
+      </component>
+      <vspacer id="aaebb">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="1" height="1"/>
+            <preferred-size width="1" height="25"/>
+            <maximum-size width="1" height="30"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="88121">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="1" height="1"/>
+            <preferred-size width="-1" height="20"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="a88fb">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="1" height="3"/>
+            <preferred-size width="1" height="15"/>
+            <maximum-size width="1" height="30"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="b92c2" class="javax.swing.JButton" binding="btn_dir">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="1" height="1"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <autoscrolls value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <text value="..."/>
+        </properties>
+      </component>
+      <component id="1e71a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="0"/>
+          <foreground color="-15917790"/>
+          <text value="Tipo de archivo:"/>
+        </properties>
+      </component>
+      <component id="78286" class="javax.swing.JButton" binding="guardarButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="0"/>
+          <text value="Guardar"/>
+        </properties>
+      </component>
+      <component id="bbb80" class="javax.swing.JRadioButton" binding="rb_txt">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Texto plano"/>
+        </properties>
+      </component>
+      <component id="be7f7" class="javax.swing.JRadioButton" binding="rb_xlsx">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Excel"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
